@@ -151,12 +151,17 @@ hr{
     padding: 3rem;
 }
 
+.bottom-container i{
+    display: none;
+}
+
 .footer-link{
     text-decoration: none;
     margin: 1.5rem;
     color: #11999e;
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
+
 
 .footer-link:hover{
     color: white;
@@ -183,8 +188,16 @@ hr{
 
     .top-container .bottom-cloud{
         width: 25%;
-        bottom: 13rem;
+        bottom: 9.5rem;
         left: 0.5rem;
+    }
+
+    .top-container h1{
+        font-size: 4.5rem;
+    }
+
+    .top-container h2{
+        font-size: 2rem;
     }
 
     .skill-row{
@@ -204,4 +217,26 @@ hr{
         font-size: 1rem;
         font-weight: 700;
     }
+
+    .bottom-container i{
+        display: inline;
+        padding: 0.2rem;
+        font-size: 2.5rem;
+    }
+
+    .footer-link{
+        text-align: left;
+        display: block;
+        font-size: 2rem;
+        margin: 1rem;
+        color: #66BFBF;
+        margin: 1.5rem;
+        margin-left: 43%;
+        overflow-x: hidden;
+    }
+
+    .footer-link:visited{
+        color: #66bfbf;
+    }
+
 }
