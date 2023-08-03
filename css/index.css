@@ -1,0 +1,170 @@
+/* ? removed default broswer styling for margin */
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'merriweather', sans-serif;
+    color: #40514e;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.top-container{
+    background-color: #E4F9F4;
+    position: relative;
+    padding-top: 100px;
+}
+
+span{
+    text-decoration: underline;
+    /* font-size: 4rem; */
+}
+
+h1{
+    color: #66bfbf;
+    margin: 50px auto;
+}
+
+.top-container h1{
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+}
+
+.profile img{
+    margin-top: 2rem;
+    width: 9rem;
+    border-radius: 100%;
+}
+
+.top-container img{
+    width: auto;
+}
+
+.skill-row img{
+    width: 10rem;
+    border-radius: 100%;
+}
+
+h2{
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+h3{
+    color: #11999e;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.top-container p span{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 3rem;
+    right: 21.87rem;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 19.37rem;
+    left: 22rem;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 6.25rem auto;
+    text-align: left;
+}
+
+hr{
+    border-bottom: 6px dotted #cae5e5b4;
+    width: 6rem;
+    margin: 5rem auto;
+}
+
+.skill-row p{
+    line-height: 2;
+    font-family: merriweather, sans-serif;
+}
+
+/* 
+.skill-row > h3,p{
+    text-align: left;
+} */
+
+.middle-container .intro{
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.middle-container h3{
+    margin: 10px auto;
+}
+
+.middle-container .skills .code-icon{
+    float: left;
+    margin-right: 1.875rem;
+}
+
+.middle-container .skills .web-icon{
+    float: right;
+    margin-left: 0.5rem;
+}
+
+.contact-me{
+    margin-bottom: 7rem;
+}
+
+.contact-me h2{
+    margin-bottom: 3rem;
+}
+
+.footer-message{
+    font-family: merriweather, sans-serif;
+    width: 50%;
+    margin: 2rem auto;
+    margin-bottom: 3.5rem;
+    line-height: 2;
+}
+
+.btn{
+    font-family: montserrat, sans-serif;
+    font-size: large;
+    padding: 0.7rem 1.7rem;
+    border-radius: 0.5em;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    color: white;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 3rem;
+}
+
+.footer-link{
+    text-decoration: none;
+    margin: 1.5rem;
+    color: #11999e;
+    font-size: 0.9em;
+}
+
+.footer-link:hover{
+    color: white;
+}
+
+.copyright{
+    padding-top: 1rem;
+    color: white;
+    font-size: small;
+    font-weight: 100;
+}
