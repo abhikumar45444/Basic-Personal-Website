@@ -175,7 +175,7 @@ hr{
 }
 
 
-@media (max-width: 475px) {
+@media (max-width: 620px) {
     .top-container .mountain{
         width: 90%;
     }
